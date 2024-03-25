@@ -56,5 +56,5 @@ function clipboard() {
     navigator.clipboard.writeText(copiarTexto.value);
   
     // Mostra o Alert com o texto copiado
-    alert("Copied the text: " + copiarTexto.value);
+    alert("Texto Copiado: " + copiarTexto.value);
   }
